@@ -1,0 +1,12 @@
+endpoint,requests
+/login,281
+/api/users,246
+/products,242
+/,231
+/contact,219
+/about,216
+/admin,35
+/config,11
+/wp-login.php,8
+/.env,6
+/backup,5

@@ -1,0 +1,2 @@
+total_requests,error_requests,server_errors,unauthorized_requests,forbidden_requests,unique_ips
+1500,105,0,40,29,8

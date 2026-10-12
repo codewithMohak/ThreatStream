@@ -1,15 +1,24 @@
 
-# Python virtual environment
+# Python environment
 .venv/
 venv/
 __pycache__/
 *.py[cod]
 
-# Generated data and analytics
+# Ignore generated CSV files by default
 data/*.csv
 outputs/*.csv
 
-# Local environment and secrets
+# Include synthetic demo data and dashboard results
+!data/access_logs.csv
+!outputs/summary.csv
+!outputs/ip_summary.csv
+!outputs/endpoint_summary.csv
+!outputs/status_summary.csv
+!outputs/alerts.csv
+!outputs/timeline_summary.csv
+
+# Secrets
 .env
 .env.*
 !.env.example
